@@ -7,7 +7,8 @@ import Card from "../UI/Card";
 const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);
   const eventHandler = () => {
-    setTitle('Updated');
+    setTitle('Updated!');
+    console.log(title);
   }
   return (
     <Card className="expense-item">
