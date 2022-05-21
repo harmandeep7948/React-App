@@ -22,7 +22,6 @@ const App = () => {
       date: new Date(2021, 5, 12),
     },
   ];
-  console.log(expenses);
   const addExpenseHandler = (expense) => {
     console.log('In app');
     console.log(expense);   
